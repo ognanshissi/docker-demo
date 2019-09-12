@@ -15,5 +15,5 @@ jobs:
         python-version: 2.7
     - name: Install dependencies
       run: |
-        docker build --tag=pythondoc
+        docker build --tag=pythondoc .
         docker-compose up --build
